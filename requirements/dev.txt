@@ -37,7 +37,7 @@ exceptiongroup==1.2.1
     # via
     #   anyio
     #   pytest
-filelock==3.14.0
+filelock==3.15.4
     # via
     #   tox
     #   virtualenv
@@ -70,7 +70,7 @@ markupsafe==2.1.5
     # via
     #   jinja2
     #   werkzeug
-mypy==1.10.0
+mypy==1.11.1
     # via -r typing.in
 mypy-extensions==1.0.0
     # via mypy
@@ -91,21 +91,21 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pre-commit==3.7.1
+pre-commit==3.8.0
     # via -r dev.in
-psutil==5.9.8
+psutil==6.0.0
     # via -r base.in
-pyproject-api==1.6.1
+pyproject-api==1.7.1
     # via tox
 pyquery==2.0.0
     # via -r base.in
-pyright==1.1.366
+pyright==1.1.374
     # via -r typing.in
-pytest==8.2.2
+pytest==8.3.2
     # via
     #   -r tests.in
     #   -r typing.in
-python-telegram-bot==21.3
+python-telegram-bot==21.4
     # via -r base.in
 pyyaml==6.0.1
     # via pre-commit
@@ -123,7 +123,7 @@ tomli==2.0.1
     #   pyproject-api
     #   pytest
     #   tox
-tox==4.15.1
+tox==4.16.0
     # via -r dev.in
 types-contextvars==2.4.7.3
     # via -r typing.in
@@ -135,7 +135,7 @@ typing-extensions==4.12.2
     #   mypy
 urllib3==2.2.2
     # via requests
-virtualenv==20.26.2
+virtualenv==20.26.3
     # via
     #   pre-commit
     #   tox
