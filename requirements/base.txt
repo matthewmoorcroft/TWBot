@@ -50,11 +50,11 @@ markupsafe==2.1.5
     # via
     #   jinja2
     #   werkzeug
-psutil==5.9.8
+psutil==6.0.0
     # via -r base.in
-pyquery==2.0.0
+pyquery==2.0.1
     # via -r base.in
-python-telegram-bot==21.3
+python-telegram-bot==21.4
     # via -r base.in
 requests==2.32.3
     # via -r base.in
